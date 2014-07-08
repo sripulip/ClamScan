@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ClamAV</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="fileSelectorButton">Click to Select File</string>
+    <string name="uploadButton">Click to Upload File</string>
+    <string name="downloadButton">Click to View Results</string>
+
+</resources>

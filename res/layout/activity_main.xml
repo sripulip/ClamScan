@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/container_background"
+    tools:context="com.netsec.clamav.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/fileSelectorButton"
+        style="android:buttonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_white_matte"
+        android:fadingEdge="horizontal"
+        android:text="@string/fileSelectorButton" />
+
+    <TextView
+        android:id="@+id/selectedFileTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/fileSelectorButton"
+        android:layout_marginTop="24dp"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/selectedFileTextView"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_white_matte"
+        android:text="@string/uploadButton" />
+
+    <TextView
+        android:id="@+id/scanCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/uploadButton"
+        android:layout_marginTop="24dp"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/downloadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/scanCompleteTextView"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_white_matte"
+        android:text="@string/downloadButton"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/downloadedSizeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/downloadButton"
+        android:layout_marginTop="24dp"
+        android:textColor="#fff" />
+
+</RelativeLayout>
